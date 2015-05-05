@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E8EEC94-8555-4EA8-A40C-4E210D1802C6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teillan</RootNamespace>
+    <AssemblyName>Teillan</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="layout\Site.master" />
+    <Compile Include="Fêter.aspx.cs">
+      <DependentUpon>Fêter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Séjourner.aspx.cs">
+      <DependentUpon>Séjourner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visiter.aspx.cs">
+      <DependentUpon>Visiter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accueil.aspx.cs">
+      <DependentUpon>Accueil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="layout\Site.master.cs">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="layout\Site.master.Designer.cs">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\Fond de page.jpeg" />
+    <Content Include="images\La cour.jpeg" />
+    <Content Include="images\La fontaine de Cérès.jpeg" />
+    <Content Include="images\La Noria.jpeg" />
+    <Content Include="images\La porte italienne.jpeg" />
+    <Content Include="images\Le donjon.jpeg" />
+    <Content Include="images\Le pigeonnier.jpeg" />
+    <Content Include="images\Logo.png" />
+    <Content Include="Fêter.aspx" />
+    <Content Include="images\menu.png" />
+    <Content Include="images\Vue du ciel.jpeg" />
+    <Content Include="scripts\lightbox\css\lightbox.css" />
+    <Content Include="scripts\lightbox\css\screen.css" />
+    <Content Include="scripts\lightbox\img\close.png" />
+    <Content Include="scripts\lightbox\img\demopage\favicon.png" />
+    <Content Include="scripts\lightbox\img\demopage\image-1.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\image-2.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\image-3.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\image-4.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\image-5.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\image-6.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\thumb-1.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\thumb-2.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\thumb-3.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\thumb-4.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\thumb-5.jpg" />
+    <Content Include="scripts\lightbox\img\demopage\thumb-6.jpg" />
+    <Content Include="scripts\lightbox\img\loading.gif" />
+    <Content Include="scripts\lightbox\img\next.png" />
+    <Content Include="scripts\lightbox\img\prev.png" />
+    <Content Include="scripts\lightbox\index.html" />
+    <Content Include="scripts\lightbox\js\jquery-1.11.0.min.js" />
+    <Content Include="scripts\lightbox\js\lightbox.js" />
+    <Content Include="scripts\lightbox\js\lightbox.min.js" />
+    <Content Include="style\site.css" />
+    <Content Include="style\menu.css" />
+    <Content Include="Séjourner.aspx" />
+    <Content Include="Visiter.aspx" />
+    <Content Include="Accueil.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\Le château de Teillan.jpeg" />
+    <Content Include="images\Le château vu du parc.jpeg" />
+    <Content Include="Web.config" />
+    <Content Include="scripts\lightbox\img\demopage\.DS_Store" />
+    <Content Include="scripts\lightbox\js\.DS_Store" />
+    <Content Include="scripts\lightbox\js\jquery-1.11.0.min.map" />
+    <Content Include="scripts\lightbox\js\lightbox.min.map" />
+    <Content Include="scripts\lightbox\README.markdown" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19060</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:19060/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
