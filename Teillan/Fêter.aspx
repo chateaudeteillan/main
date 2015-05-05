@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeFile="Fêter.aspx.cs" Inherits="Teillan.Celebrate" Title="Château de Teillan - Fêter" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeBehind="Fêter.aspx.cs" Inherits="Teillan.Celebrate" Title="Château de Teillan - Fêter" %>
 <asp:Content ID="Head" ContentPlaceHolderID="head" Runat="Server" />
 <asp:Content ID="Side" ContentPlaceHolderID="sideContent" Runat="Server">
     <div>
