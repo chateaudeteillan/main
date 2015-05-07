@@ -6,62 +6,191 @@
     <title>Château de Teillan</title>
     <asp:ContentPlaceHolder ID="head" runat="server" />
 
+    <%-- Lightbox --%>
+
     <script type="text/javascript" src="/scripts/lightbox/js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="/scripts/lightbox/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="/scripts/lightbox/js/lightbox.min.js"></script>
     <link rel="stylesheet" href="/scripts/lightbox/css/lightbox.css" />
 
+    <%-- Bootstrap --%>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <%-- Slides --%>
+
+    <style type="text/css">
+        #slides {
+          display: none
+        }
+
+        #slides .slidesjs-navigation {
+          margin-top:3px;
+        }
+
+        #slides .slidesjs-previous {
+          margin-right: 5px;
+          float: left;
+        }
+
+        #slides .slidesjs-next {
+          margin-right: 5px;
+          float: left;
+        }
+
+        .slidesjs-pagination {
+          margin: 6px 0 0;
+          float: right;
+          list-style: none;
+        }
+
+        .slidesjs-pagination li {
+          float: left;
+          margin: 0 1px;
+        }
+
+        .slidesjs-pagination li a {
+          display: block;
+          width: 13px;
+          height: 0;
+          padding-top: 13px;
+          background-image: url(/images/pagination.png);
+          background-position: 0 0;
+          float: left;
+          overflow: hidden;
+        }
+
+        .slidesjs-pagination li a.active,
+        .slidesjs-pagination li a:hover.active {
+          background-position: 0 -13px
+        }
+
+        .slidesjs-pagination li a:hover {
+          background-position: 0 -26px
+        }
+
+        #slides a:link,
+        #slides a:visited {
+          color: #333
+        }
+
+        #slides a:hover,
+        #slides a:active {
+          color: #9e2020
+        }
+    </style>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="jquery.slides.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#slides").slidesjs({
+                width: 480,
+                height: 300
+            });
+        });
+    </script>
+
+    <%-- Style --%>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <link rel="Stylesheet" href="/style/site.css" />
     <link rel="Stylesheet" href="/style/menu.css" />
 
 </head>
-<body>
-    <form id="form" runat="server">
+<body class="container">
 
-        <div>
-            <img src="/images/Logo.png" alt="Teillan" />
-        </div>
-        
-        <div>
-        <ul id="menu">
-            <li><a href="/Accueil.aspx">TEILLAN</a></li>
-            <li><a href="/Visiter.aspx">VISITER</a></li>
-            <li><a href="/Fêter.aspx">FÊTER</a></li>
-            <li>
-                <a href="/Séjourner.aspx">SÉJOURNER</a>
-                <ul class="sub-menu">
-                <li><a href="/PorteItalienne.aspx">Gîte de la Porte Italienne</a></li>
-                <li><a href="/CadranSolaire.aspx">Gîte du Cadran Solaire</a></li>
-                <li><a href="/Pigeonnier.aspx">Gîte du Pigeonnier</a></li>
-                </ul>
-            </li>
-            <li><a href="/Contact.aspx">CONTACT</a></li>
-        </ul>
-        </div>
+    <form id="form" class="row" runat="server">
 
-        <div>
-            <asp:ContentPlaceHolder ID="sideContent" runat="server" />
-        </div>
+        <%-- Top Menu --%>
 
-        <div>
-            <p>RESERVATIONS</p>
-            <p>
-                Telephone&nbsp;:&nbsp;06 80 10 08 07<br />
-                Email:&nbsp;chateaudeteillan@gmail.com
-            </p>
-        </div>
+        <div class="row">
 
-        <div>
-            <p>
-                Le Grand Teillan<br />
-                30470 Aimargues<br />
-                Tél&nbsp;:&nbsp;06 80 10 08 07<br />
-                chateaudeteillan@gmail.com
-            </p>
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs sidePanel background">
+                <div>
+                    <img src="/images/Logo.png" alt="Teillan" />
+                </div>
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
+
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class="menu row">
+                    <ul id="menu">
+                        <li><a href="/Accueil.aspx">TEILLAN</a></li>
+                        <li><a href="/Visiter.aspx">VISITER</a></li>
+                        <li><a href="/Fêter.aspx">FÊTER</a></li>
+                        <li>
+                            <a href="/Séjourner.aspx">SÉJOURNER</a>
+                            <ul class="sub-menu">
+                                <li><a href="/PorteItalienne.aspx">Gîte de la Porte Italienne</a></li>
+                                <li><a href="/CadranSolaire.aspx">Gîte du Cadran Solaire</a></li>
+                                <li><a href="/Pigeonnier.aspx">Gîte du Pigeonnier</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/Contact.aspx">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
-        <div>
-            <asp:ContentPlaceHolder ID="mainContent" runat="server" />
+        <%-- Content --%>
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs sidePanel background">
+                <div class="row">
+                    <asp:ContentPlaceHolder ID="sideContent" runat="server" />
+                    <div>
+                        <p>RÉSERVATIONS</p>
+                        <p>
+                            Telephone&nbsp;:&nbsp;06 80 10 08 07<br />
+                            Email:&nbsp;chateaudeteillan@gmail.com
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="https://www.facebook.com/pages/Ch%C3%A2teau-de-Teillan/224143710954533">
+                                <img src="/images/social/facebook.png" alt="Facebook®" /></a>
+                            <a href="https://plus.google.com/117458849805390198416/posts">
+                                <img src="/images/social/google.png" alt="Google®+" /></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
+
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 background">
+                <div class="row">
+                    <asp:ContentPlaceHolder ID="mainContent" runat="server" />
+                </div>
+            </div>
+
         </div>
+
+        <%-- Footer --%>
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs sidePanel background">
+                <div>
+                    <p>
+                        Le Grand Teillan<br />
+                        30470 Aimargues<br />
+                        Tél&nbsp;:&nbsp;06 80 10 08 07<br />
+                        chateaudeteillan@gmail.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"></div>
+
+        </div>
+
     </form>
 
 </body>

@@ -1,22 +1,24 @@
-﻿@font-face{
-    font-family: "Helvetica-W01-Roman";
-    src: url("/fonts/Helvetica-W01-Roman.woff") format('woff');
-}
-
-@font-face{
-    font-family: "Helvetica-W01-Roman";
-    src: url("/fonts/Helvetica-W01-Light.woff") format('woff');
-}
-
-body {
+﻿body {
     background: #AFA99B url("/images/Fond de page.jpeg") top left no-repeat;
+    width: 100%;
     margin: 0;
     padding: 0;
     color: white;
-    font-family: "Helvetica-W01-Roman", Verdana, Geneva, Tahoma, sans-serif;
+    font: normal normal normal 18px/1.4em "Open Sans", "Open Sans", sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+}
+
+.sidePanel {
+    text-align: center;
+}
+
+.background {
+    background-color: #211f1e;
+    margin-bottom: 80px;
 }
 
 #menu li a:link {
-    font-family: "Helvetica-W01-Light", Verdana, Geneva, Tahoma, sans-serif;
-
+    font-family: "Open-Sans", Verdana, Geneva, Tahoma, sans-serif;
 }

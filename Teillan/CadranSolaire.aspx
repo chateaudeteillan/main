@@ -54,6 +54,11 @@
     </div>
 
     <div>
+        <a href="/resources/brochure_cadran_solaire.pdf"><img src="/images/Adobe.png" alt="Brochure détaillée du gîte du cadran solaire"/></a>
+        <img src="/images/Clevacances.png" alt="Clévacances - Locations et chambres d'hôtes" />
+    </div>
+
+    <div>
         <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire"><img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire.jpeg" alt="Gîte du Cadran Solaire" /></a>
         <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Entrée.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire - Entrée"><img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Entrée.jpeg" alt="Entrée" /></a>
         <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Cuisine.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire - Cuisine"><img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Cuisine.jpeg" alt="Cuisine" /></a>

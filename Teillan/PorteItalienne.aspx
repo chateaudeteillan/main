@@ -58,6 +58,11 @@
         </p>
 
     </div>
+    
+    <div>
+        <a href="/resources/brochure_porte_italienne.pdf"><img src="/images/Adobe.png" alt="Brochure détaillée du gîte de la Porte Italienne"/></a>
+        <img src="/images/Clevacances.png" alt="Clévacances - Locations et chambres d'hôtes" />
+    </div>
 
     <div>
 <a href="/images/appart-porte-italienne/Gîte de la Porte Italienne.jpeg" data-lightbox="Porte Italienne" data-title="Gîte de la Porte Italienne"><img src="/images/appart-porte-italienne/Gîte de la Porte Italienne.jpeg" alt="Gîte de la Porte Italienne" /></a>

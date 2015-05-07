@@ -56,6 +56,11 @@
         </p>
 
     </div>
+    
+    <div>
+        <a href="/resources/brochure_pigeonnier.pdf"><img src="/images/Adobe.png" alt="Brochure détaillée du gîte du pigeonnier"/></a>
+        <img src="/images/Clevacances.png" alt="Clévacances - Locations et chambres d'hôtes" />
+    </div>
 
     <div>
         <a href="/images/appart-pigeonnier/Gîte du Pigeonnier.jpeg" data-lightbox="Pigeonnier" data-title="Gîte du Pigeonnier"><img src=/images/appart-pigeonnier/Gîte du Pigeonnier.jpeg" /></a>

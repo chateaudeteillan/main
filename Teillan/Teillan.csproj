@@ -57,6 +57,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Adobe.png" />
+    <Content Include="images\Clevacances.png" />
+    <Content Include="images\contact\Le donjon.jpeg" />
+    <Content Include="images\événements\L%27orangerie - bis.jpeg" />
+    <Content Include="images\événements\L%27orangerie.jpeg" />
+    <Content Include="images\événements\La borne millière.jpeg" />
+    <Content Include="images\événements\La cour.jpeg" />
+    <Content Include="images\événements\La ruelle.jpeg" />
+    <Content Include="images\événements\La Salle Capitulaire.jpeg" />
+    <Content Include="images\événements\Le donjon vu du parc.jpeg" />
+    <Content Include="images\événements\Le parc.jpeg" />
+    <Content Include="images\événements\Le pigeonnier - bis.jpeg" />
+    <Content Include="images\événements\Le pigeonnier.jpeg" />
+    <Content Include="images\événements\Le potager.jpeg" />
+    <Content Include="images\événements\Mariage Allée des Platanes.jpeg" />
+    <Content Include="images\événements\Mariage Cour Carrée.jpeg" />
+    <Content Include="images\événements\Mariage Cour.jpeg" />
+    <Content Include="images\événements\Mariage Orangerie - Potager.jpeg" />
     <Content Include="PorteItalienne.aspx" />
     <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire - Chambre Couple.jpeg" />
     <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire - Chambre lits jumeaux.jpeg" />
@@ -99,6 +117,10 @@
     </Compile>
     <Compile Include="Séjourner.aspx.cs">
       <DependentUpon>Séjourner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Visiter.aspx.cs">
@@ -159,6 +181,7 @@
     <Content Include="style\menu.css" />
     <Content Include="Pigeonnier.aspx" />
     <Content Include="Séjourner.aspx" />
+    <Content Include="Contact.aspx" />
     <Content Include="Visiter.aspx" />
     <Content Include="Accueil.aspx" />
   </ItemGroup>
@@ -173,6 +196,9 @@
     <Content Include="scripts\lightbox\README.markdown" />
     <Content Include="fonts\Helvetica-W01-Light.woff" />
     <Content Include="fonts\Helvetica-W01-Roman.woff" />
+    <Content Include="resources\brochure_cadran_solaire.pdf" />
+    <Content Include="resources\brochure_pigeonnier.pdf" />
+    <Content Include="resources\brochure_porte_italienne.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

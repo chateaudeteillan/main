@@ -5,7 +5,7 @@
     <div>
         <p>Teillan vous accueille : une visite, un séjour ou une fête !</p>
         <a href="/images/Le château de Teillan.jpeg" data-lightbox="Le Château de Teillan" data-title="Le Château de Teillan">
-            <img src="/images/Le château de Teillan.jpeg" alt="Le Château de Teillan" />
+            <img src="/images/Le château de Teillan.jpeg" alt="Le Château de Teillan" width="250" height="250" />
         </a>
     </div>
 </asp:Content>
@@ -25,7 +25,7 @@
 
     <div>
         <a href="/images/Le château vu du parc.jpeg" data-lightbox="Le Château vu du parc" data-title="Le Château vu du parc">
-        <img src="/images/Le château vu du parc.jpeg" alt="Le Château vu du parc" />
+        <img src="/images/Le château vu du parc.jpeg" alt="Le Château vu du parc" width="120" />
         </a>
     </div>
 
