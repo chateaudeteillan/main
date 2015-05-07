@@ -1,5 +1,22 @@
-﻿body {
+﻿@font-face{
+    font-family: "Helvetica-W01-Roman";
+    src: url("/fonts/Helvetica-W01-Roman.woff") format('woff');
+}
+
+@font-face{
+    font-family: "Helvetica-W01-Roman";
+    src: url("/fonts/Helvetica-W01-Light.woff") format('woff');
+}
+
+body {
     background: #AFA99B url("/images/Fond de page.jpeg") top left no-repeat;
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: "Helvetica-W01-Roman", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu li a:link {
+    font-family: "Helvetica-W01-Light", Verdana, Geneva, Tahoma, sans-serif;
+
 }

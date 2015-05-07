@@ -23,18 +23,18 @@
         
         <div>
         <ul id="menu">
-            <li><a href="/Accueil.aspx">Teillan</a></li>
-            <li><a href="/Visiter.aspx">Visiter</a></li>
-            <li><a href="/Fêter.aspx">Fêter</a></li>
+            <li><a href="/Accueil.aspx">TEILLAN</a></li>
+            <li><a href="/Visiter.aspx">VISITER</a></li>
+            <li><a href="/Fêter.aspx">FÊTER</a></li>
             <li>
-                <a href="/Séjourner.aspx">Séjourner</a>
+                <a href="/Séjourner.aspx">SÉJOURNER</a>
                 <ul class="sub-menu">
-                <li><a href="#">Gîte de la Porte Italienne</a></li>
-                <li><a href="#">Gîte du Cadran Solaire</a></li>
-                <li><a href="#">Gîte du Pigeonnier</a></li>
+                <li><a href="/PorteItalienne.aspx">Gîte de la Porte Italienne</a></li>
+                <li><a href="/CadranSolaire.aspx">Gîte du Cadran Solaire</a></li>
+                <li><a href="/Pigeonnier.aspx">Gîte du Pigeonnier</a></li>
                 </ul>
             </li>
-            <li><a href="/Contact.aspx">Contact</a></li>
+            <li><a href="/Contact.aspx">CONTACT</a></li>
         </ul>
         </div>
 

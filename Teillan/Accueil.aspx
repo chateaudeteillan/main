@@ -20,7 +20,7 @@
             Entre Cévennes et Méditerranée.
         </p>
 
-        <p>Lieu discret, innatendu, magique, étonnant témoin de l'histoire de cette région...</p>
+        <p>Lieu discret, inattendu, magique, étonnant témoin de l'histoire de cette région...</p>
     </div>
 
     <div>

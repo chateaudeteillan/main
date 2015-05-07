@@ -57,15 +57,53 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PorteItalienne.aspx" />
+    <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire - Chambre Couple.jpeg" />
+    <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire - Chambre lits jumeaux.jpeg" />
+    <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire - Cuisine.jpeg" />
+    <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire - Entrée.jpeg" />
+    <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire - Salle à manger.jpeg" />
+    <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire - Salon.jpeg" />
+    <Content Include="images\appart-cadran-solaire\Gîte du Cadran Solaire.jpeg" />
+    <Content Include="images\appart-pigeonnier\Gîte du Pigeonnier - Chambre lit double 1.jpeg" />
+    <Content Include="images\appart-pigeonnier\Gîte du Pigeonnier - Chambre lit double 2.jpeg" />
+    <Content Include="images\appart-pigeonnier\Gîte du Pigeonnier - Chambre lits jumeaux 1.jpeg" />
+    <Content Include="images\appart-pigeonnier\Gîte du Pigeonnier - Chambre lits jumeaux 2.jpeg" />
+    <Content Include="images\appart-pigeonnier\Gîte du Pigeonnier - Salon et salle à manger.jpeg" />
+    <Content Include="images\appart-pigeonnier\Gîte du Pigeonnier - Salon, salle à manger et cuisine.jpeg" />
+    <Content Include="images\appart-pigeonnier\Gîte du Pigeonnier.jpeg" />
+    <Content Include="images\appart-porte-italienne\Gîte de la Porte Italienne - Chambre et couloir.jpeg" />
+    <Content Include="images\appart-porte-italienne\Gîte de la Porte Italienne - Chambre.jpeg" />
+    <Content Include="images\appart-porte-italienne\Gîte de la Porte Italienne - Cuisine.jpeg" />
+    <Content Include="images\appart-porte-italienne\Gîte de la Porte Italienne - Salle à manger.jpeg" />
+    <Content Include="images\appart-porte-italienne\Gîte de la Porte Italienne - Séjour.jpeg" />
+    <Content Include="images\appart-porte-italienne\Gîte de la Porte Italienne.jpeg" />
+    <Content Include="images\social\facebook.png" />
+    <Content Include="images\social\google.png" />
     <Content Include="layout\Site.master" />
+    <Compile Include="PorteItalienne.aspx.cs">
+      <DependentUpon>PorteItalienne.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Fêter.aspx.cs">
       <DependentUpon>Fêter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadranSolaire.aspx.cs">
+      <DependentUpon>CadranSolaire.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pigeonnier.aspx.cs">
+      <DependentUpon>Pigeonnier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Séjourner.aspx.cs">
       <DependentUpon>Séjourner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Visiter.aspx.cs">
       <DependentUpon>Visiter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Accueil.aspx.cs">
       <DependentUpon>Accueil.aspx</DependentUpon>
@@ -80,9 +118,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="fonts\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="images\Fond de page.jpeg" />
     <Content Include="images\La cour.jpeg" />
@@ -95,6 +131,7 @@
     <Content Include="Fêter.aspx" />
     <Content Include="images\menu.png" />
     <Content Include="images\Vue du ciel.jpeg" />
+    <Content Include="CadranSolaire.aspx" />
     <Content Include="scripts\lightbox\css\lightbox.css" />
     <Content Include="scripts\lightbox\css\screen.css" />
     <Content Include="scripts\lightbox\img\close.png" />
@@ -120,6 +157,7 @@
     <Content Include="scripts\lightbox\js\lightbox.min.js" />
     <Content Include="style\site.css" />
     <Content Include="style\menu.css" />
+    <Content Include="Pigeonnier.aspx" />
     <Content Include="Séjourner.aspx" />
     <Content Include="Visiter.aspx" />
     <Content Include="Accueil.aspx" />
@@ -133,6 +171,8 @@
     <Content Include="scripts\lightbox\js\jquery-1.11.0.min.map" />
     <Content Include="scripts\lightbox\js\lightbox.min.map" />
     <Content Include="scripts\lightbox\README.markdown" />
+    <Content Include="fonts\Helvetica-W01-Light.woff" />
+    <Content Include="fonts\Helvetica-W01-Roman.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
