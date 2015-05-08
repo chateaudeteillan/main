@@ -1,5 +1,5 @@
 .slideshow {
-    width: 640px;
+    width: 570px;
     margin-right: auto;
     margin-left: auto;
     *zoom: 1;
@@ -110,13 +110,13 @@ div.slide {
 .caption {
     z-index: 500;
     position: absolute;
-    bottom: -35px;
+    bottom: -160px;
     left: 0;
     height: 30px;
-    padding: 5px 20px 0 20px;
+    padding: 0 0 0 0;
     background: #000;
     background: rgba(0,0,0,.5);
-    width: 540px;
+    width: 570px;
     font-size: 1.3em;
     line-height: 1.33;
     color: #fff;

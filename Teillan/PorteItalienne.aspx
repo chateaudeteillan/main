@@ -69,36 +69,37 @@
 
     <div class="slideshow">
         <div id="slides">
-            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Chambre et couloir.jpeg" data-lightbox="Porte Italienne" data-title="Gîte de la Porte Italienne - Chambre et couloir">
-                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Chambre et couloir.jpeg" alt="Gîte de la Porte Italienne - Chambre et couloir" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte de la Porte Italienne - Chambre et couloir</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Chambre.jpeg" data-lightbox="Porte Italienne" data-title="Gîte de la Porte Italienne - Chambre">
-                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Chambre.jpeg" alt="Gîte de la Porte Italienne - Chambre" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte de la Porte Italienne - Chambre</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Cuisine.jpeg" data-lightbox="Porte Italienne" data-title="Gîte de la Porte Italienne - Cuisine">
-                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Cuisine.jpeg" alt="Gîte de la Porte Italienne - Cuisine" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte de la Porte Italienne - Cuisine</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Salle à manger.jpeg" data-lightbox="Porte Italienne" data-title="Gîte de la Porte Italienne - Salle à manger">
-                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Salle à manger.jpeg" alt="Gîte de la Porte Italienne - Salle à manger" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte de la Porte Italienne - Salle à manger</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Séjour.jpeg" data-lightbox="Porte Italienne" data-title="Gîte de la Porte Italienne - Séjour">
-                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Séjour.jpeg" alt="Gîte de la Porte Italienne - Séjour" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte de la Porte Italienne - Séjour</p>
-                </div>
-            </div>
             <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne.jpeg" data-lightbox="Porte Italienne" data-title="Gîte de la Porte Italienne">
                 <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne.jpeg" alt="Gîte de la Porte Italienne" width="640" height="480" /></a><div class="caption" style="bottom: 0">
                     <p>Gîte de la Porte Italienne</p>
                 </div>
             </div>
+            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Séjour.jpeg" data-lightbox="Porte Italienne" data-title="Séjour">
+                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Séjour.jpeg" alt="Séjour" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Séjour</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Cuisine.jpeg" data-lightbox="Porte Italienne" data-title="Cuisine">
+                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Cuisine.jpeg" alt="Cuisine" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Cuisine</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Salle à manger.jpeg" data-lightbox="Porte Italienne" data-title="Salle à manger">
+                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Salle à manger.jpeg" alt="Salle à manger" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Salle à manger</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Chambre.jpeg" data-lightbox="Porte Italienne" data-title="Chambre">
+                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Chambre.jpeg" alt="Chambre" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Chambre</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-porte-italienne/Gîte de la Porte Italienne - Chambre et couloir.jpeg" data-lightbox="Porte Italienne" data-title="Chambre et couloir">
+                <img src="/images/appart-porte-italienne/Gîte de la Porte Italienne - Chambre et couloir.jpeg" alt="Chambre et couloir" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Chambre et couloir</p>
+                </div>
+            </div>
+
             <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
             <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
         </div>

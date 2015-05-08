@@ -68,41 +68,42 @@
     <div class="slideshow">
         <div id="slides">
 
-            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lit double 1.jpeg" data-lightbox="Pigeonnier" data-title="Gîte du Pigeonnier - Chambre lit double 1">
-                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lit double 1.jpeg" alt="Gîte du Pigeonnier - Chambre lit double 1" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte du Pigeonnier - Chambre lit double 1</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lit double 2.jpeg" data-lightbox="Pigeonnier" data-title="Gîte du Pigeonnier - Chambre lit double 2">
-                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lit double 2.jpeg" alt="Gîte du Pigeonnier - Chambre lit double 2" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte du Pigeonnier - Chambre lit double 2</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lits jumeaux 1.jpeg" data-lightbox="Pigeonnier" data-title="Gîte du Pigeonnier - Chambre lits jumeaux 1">
-                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lits jumeaux 1.jpeg" alt="Gîte du Pigeonnier - Chambre lits jumeaux 1" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte du Pigeonnier - Chambre lits jumeaux 1</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lits jumeaux 2.jpeg" data-lightbox="Pigeonnier" data-title="Gîte du Pigeonnier - Chambre lits jumeaux 2">
-                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lits jumeaux 2.jpeg" alt="Gîte du Pigeonnier - Chambre lits jumeaux 2" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte du Pigeonnier - Chambre lits jumeaux 2</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Salon et salle à manger.jpeg" data-lightbox="Pigeonnier" data-title="Gîte du Pigeonnier - Salon et salle à manger">
-                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Salon et salle à manger.jpeg" alt="Gîte du Pigeonnier - Salon et salle à manger" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte du Pigeonnier - Salon et salle à manger</p>
-                </div>
-            </div>
-            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Salon, salle à manger et cuisine.jpeg" data-lightbox="Pigeonnier" data-title="Gîte du Pigeonnier - Salon, salle à manger et cuisine">
-                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Salon, salle à manger et cuisine.jpeg" alt="Gîte du Pigeonnier - Salon, salle à manger et cuisine" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                    <p>Gîte du Pigeonnier - Salon, salle à manger et cuisine</p>
-                </div>
-            </div>
             <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier.jpeg" data-lightbox="Pigeonnier" data-title="Gîte du Pigeonnier">
                 <img src="/images/appart-pigeonnier/Gîte du Pigeonnier.jpeg" alt="Gîte du Pigeonnier" width="640" height="480" /></a><div class="caption" style="bottom: 0">
                     <p>Gîte du Pigeonnier</p>
                 </div>
             </div>
+            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Salon et salle à manger.jpeg" data-lightbox="Pigeonnier" data-title="Salon et salle à manger">
+                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Salon et salle à manger.jpeg" alt="Salon et salle à manger" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Salon et salle à manger</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Salon, salle à manger et cuisine.jpeg" data-lightbox="Pigeonnier" data-title="Salon, salle à manger et cuisine">
+                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Salon, salle à manger et cuisine.jpeg" alt="Salon, salle à manger et cuisine" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Salon, salle à manger et cuisine</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lit double 1.jpeg" data-lightbox="Pigeonnier" data-title="Chambre lit double 1">
+                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lit double 1.jpeg" alt="Chambre lit double 1" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Chambre lit double 1</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lit double 2.jpeg" data-lightbox="Pigeonnier" data-title="Chambre lit double 2">
+                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lit double 2.jpeg" alt="Chambre lit double 2" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Chambre lit double 2</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lits jumeaux 1.jpeg" data-lightbox="Pigeonnier" data-title="Chambre lits jumeaux 1">
+                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lits jumeaux 1.jpeg" alt="Chambre lits jumeaux 1" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Chambre lits jumeaux 1</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lits jumeaux 2.jpeg" data-lightbox="Pigeonnier" data-title="Chambre lits jumeaux 2">
+                <img src="/images/appart-pigeonnier/Gîte du Pigeonnier - Chambre lits jumeaux 2.jpeg" alt="Chambre lits jumeaux 2" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Chambre lits jumeaux 2</p>
+                </div>
+            </div>
+
             <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
             <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
         </div>

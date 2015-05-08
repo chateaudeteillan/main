@@ -181,7 +181,6 @@
     <Content Include="scripts\slidesjs\jquery.slides.min.js" />
     <Content Include="scripts\slidesjs\pagination.png" />
     <Content Include="scripts\slidesjs\slides.css" />
-    <Content Include="style\example.css" />
     <Content Include="style\font-awesome.min.css" />
     <Content Include="style\site.css" />
     <Content Include="style\menu.css" />

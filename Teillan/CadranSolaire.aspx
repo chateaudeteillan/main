@@ -64,45 +64,45 @@
     <div class="slideshow">
         <div id="slides">
             <div class="slide">
-                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Chambre Couple.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire - Chambre Couple">
-                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Chambre Couple.jpeg" alt="Gîte du Cadran Solaire - Chambre Couple" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                        <p>Gîte du Cadran Solaire - Chambre Couple</p>
-                    </div>
-            </div>
-            <div class="slide">
-                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Chambre lits jumeaux.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire - Chambre lits jumeaux">
-                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Chambre lits jumeaux.jpeg" alt="Gîte du Cadran Solaire - Chambre lits jumeaux" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                        <p>Gîte du Cadran Solaire - Chambre lits jumeaux</p>
-                    </div>
-            </div>
-            <div class="slide">
-                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Cuisine.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire - Cuisine">
-                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Cuisine.jpeg" alt="Gîte du Cadran Solaire - Cuisine" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                        <p>Gîte du Cadran Solaire - Cuisine</p>
-                    </div>
-            </div>
-            <div class="slide">
-                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Entrée.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire - Entrée">
-                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Entrée.jpeg" alt="Gîte du Cadran Solaire - Entrée" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                        <p>Gîte du Cadran Solaire - Entrée</p>
-                    </div>
-            </div>
-            <div class="slide">
-                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Salle à manger.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire - Salle à manger">
-                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Salle à manger.jpeg" alt="Gîte du Cadran Solaire - Salle à manger" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                        <p>Gîte du Cadran Solaire - Salle à manger</p>
-                    </div>
-            </div>
-            <div class="slide">
-                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Salon.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire - Salon">
-                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Salon.jpeg" alt="Gîte du Cadran Solaire - Salon" width="640" height="480" /></a><div class="caption" style="bottom: 0">
-                        <p>Gîte du Cadran Solaire - Salon</p>
-                    </div>
-            </div>
-            <div class="slide">
                 <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire.jpeg" data-lightbox="Cadran Solaire" data-title="Gîte du Cadran Solaire">
                     <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire.jpeg" alt="Gîte du Cadran Solaire" width="640" height="480" /></a><div class="caption" style="bottom: 0">
                         <p>Gîte du Cadran Solaire</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Cuisine.jpeg" data-lightbox="Cadran Solaire" data-title="Cuisine">
+                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Cuisine.jpeg" alt="Cuisine" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                        <p>Cuisine</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Entrée.jpeg" data-lightbox="Cadran Solaire" data-title="Entrée">
+                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Entrée.jpeg" alt="Entrée" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                        <p>Entrée</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Salon.jpeg" data-lightbox="Cadran Solaire" data-title="Salon">
+                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Salon.jpeg" alt="Salon" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                        <p>Salon</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Salle à manger.jpeg" data-lightbox="Cadran Solaire" data-title="Salle à manger">
+                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Salle à manger.jpeg" alt="Salle à manger" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                        <p>Salle à manger</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Chambre Couple.jpeg" data-lightbox="Cadran Solaire" data-title="Chambre Couple">
+                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Chambre Couple.jpeg" alt="Chambre Couple" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                        <p>Chambre Couple</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <a href="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Chambre lits jumeaux.jpeg" data-lightbox="Cadran Solaire" data-title="Chambre lits jumeaux">
+                    <img src="/images/appart-cadran-solaire/Gîte du Cadran Solaire - Chambre lits jumeaux.jpeg" alt="Chambre lits jumeaux" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                        <p>Chambre lits jumeaux</p>
                     </div>
             </div>
 
