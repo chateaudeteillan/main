@@ -22,3 +22,8 @@
 #menu li a:link {
     font-family: "Open-Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.contact input {
+    background-color: lightgrey;
+    color: white;
+}
