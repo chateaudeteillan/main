@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeBehind="Visiter.aspx.cs" Inherits="Teillan.Visit" Title="Château de Teillan - Visiter" %>
-<asp:Content ID="Head" ContentPlaceHolderID="head" Runat="Server" />
+<asp:Content ID="Head" ContentPlaceHolderID="head" Runat="Server"/>
 <asp:Content ID="Side" ContentPlaceHolderID="sideContent" Runat="Server">
     <div>
         <p>Venez découvrir Teillan un site historique de charme, situé aux carrefours des siècles, des religions et des routes du sel.</p>

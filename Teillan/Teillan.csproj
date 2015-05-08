@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\Adobe.png" />
     <Content Include="images\Clevacances.png" />
     <Content Include="images\contact\Le donjon.jpeg" />
@@ -177,6 +178,11 @@
     <Content Include="scripts\lightbox\js\jquery-1.11.0.min.js" />
     <Content Include="scripts\lightbox\js\lightbox.js" />
     <Content Include="scripts\lightbox\js\lightbox.min.js" />
+    <Content Include="scripts\slidesjs\jquery.slides.min.js" />
+    <Content Include="scripts\slidesjs\pagination.png" />
+    <Content Include="scripts\slidesjs\slides.css" />
+    <Content Include="style\example.css" />
+    <Content Include="style\font-awesome.min.css" />
     <Content Include="style\site.css" />
     <Content Include="style\menu.css" />
     <Content Include="Pigeonnier.aspx" />
@@ -199,6 +205,10 @@
     <Content Include="resources\brochure_cadran_solaire.pdf" />
     <Content Include="resources\brochure_pigeonnier.pdf" />
     <Content Include="resources\brochure_porte_italienne.pdf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -6,6 +6,8 @@
     <title>Château de Teillan</title>
     <asp:ContentPlaceHolder ID="head" runat="server" />
 
+    <link rel="stylesheet" href="/style/font-awesome.min.css" />
+
     <%-- Lightbox --%>
 
     <script type="text/javascript" src="/scripts/lightbox/js/jquery-1.11.0.min.js"></script>
@@ -19,82 +21,12 @@
 
     <%-- Slides --%>
 
-    <style type="text/css">
-        #slides {
-          display: none
-        }
-
-        #slides .slidesjs-navigation {
-          margin-top:3px;
-        }
-
-        #slides .slidesjs-previous {
-          margin-right: 5px;
-          float: left;
-        }
-
-        #slides .slidesjs-next {
-          margin-right: 5px;
-          float: left;
-        }
-
-        .slidesjs-pagination {
-          margin: 6px 0 0;
-          float: right;
-          list-style: none;
-        }
-
-        .slidesjs-pagination li {
-          float: left;
-          margin: 0 1px;
-        }
-
-        .slidesjs-pagination li a {
-          display: block;
-          width: 13px;
-          height: 0;
-          padding-top: 13px;
-          background-image: url(/images/pagination.png);
-          background-position: 0 0;
-          float: left;
-          overflow: hidden;
-        }
-
-        .slidesjs-pagination li a.active,
-        .slidesjs-pagination li a:hover.active {
-          background-position: 0 -13px
-        }
-
-        .slidesjs-pagination li a:hover {
-          background-position: 0 -26px
-        }
-
-        #slides a:link,
-        #slides a:visited {
-          color: #333
-        }
-
-        #slides a:hover,
-        #slides a:active {
-          color: #9e2020
-        }
-    </style>
-
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="jquery.slides.min.js"></script>
-
-    <script type="text/javascript">
-        $(function () {
-            $("#slides").slidesjs({
-                width: 480,
-                height: 300
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="/style/font-awesome.min.css" />
+    <link rel="stylesheet" href="/scripts/slidesjs/slides.css" />
 
     <%-- Style --%>
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />
     <link rel="Stylesheet" href="/style/site.css" />
     <link rel="Stylesheet" href="/style/menu.css" />
 
@@ -190,6 +122,53 @@
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"></div>
 
         </div>
+
+        <%-- Extra scripts --%>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="scripts/slidesjs/jquery.slides.min.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                $("#slides").slidesjs({
+                    width: 640,
+                    height: 480,
+                    navigation: false,
+                    callback: {
+                        loaded: function(number) {
+                            // Use your browser console to view log
+                            console.log("SlidesJS: Loaded with slide #" + number);
+
+                            // Show start slide in log
+                            $("#slidesjs-log .slidesjs-slide-number").text(number);
+
+                            $(".caption").animate({
+                                bottom: 0
+                            }, 200);
+                        },
+                        start: function(number) {
+                            // Use your browser console to view log
+                            console.log("SlidesJS: Start Animation on slide #" + number);
+
+                            $(".caption").animate({
+                                bottom: -35
+                            }, 100);
+                        },
+                        complete: function(number) {
+                            // Use your browser console to view log
+                            console.log("SlidesJS: Animation Complete. Current slide is #" + number);
+
+                            // Change slide number on animation complete
+                            $("#slidesjs-log .slidesjs-slide-number").text(number);
+
+                            $(".caption").animate({
+                                bottom: 0
+                            }, 200);                        
+                        }
+                    }
+                });
+            });
+      </script>
 
     </form>
 

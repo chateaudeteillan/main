@@ -29,55 +29,87 @@
 
     </div>
 
-    <div id="slides">
-        <img src="/images/événements/L'orangerie - bis.jpeg" alt="L'orangerie - bis" />
-        <img src="/images/événements/L'orangerie.jpeg" alt="L'orangerie" />
-        <img src="/images/événements/La borne millière.jpeg" alt="La borne millière" />
-        <img src="/images/événements/La cour.jpeg" alt="La cour" />
-        <img src="/images/événements/La ruelle.jpeg" alt="La ruelle" />
-        <img src="/images/événements/La Salle Capitulaire.jpeg" alt="La Salle Capitulaire" />
-        <img src="/images/événements/Le donjon vu du parc.jpeg" alt="Le donjon vu du parc" />
-        <img src="/images/événements/Le parc.jpeg" alt="Le parc" />
-        <img src="/images/événements/Le pigeonnier - bis.jpeg" alt="Le pigeonnier - bis" />
-        <img src="/images/événements/Le pigeonnier.jpeg" alt="Le pigeonnier" />
-        <img src="/images/événements/Le potager.jpeg" alt="Le potager" />
-        <img src="/images/événements/Mariage allée des platanes.jpeg" alt="Mariage allée des platanes" />
-        <img src="/images/événements/Mariage cour carrée.jpeg" alt="Mariage cour carrée" />
-        <img src="/images/événements/Mariage cour.jpeg" alt="Mariage cour" />
-        <img src="/images/événements/Mariage orangerie - potager.jpeg" alt="Mariage orangerie - potager" />
-        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
-    </div>
+    <div class="slideshow">
+        <div id="slides">
+            <div class="slide"><a href="/images/événements/L'orangerie - bis.jpeg" data-lightbox="Événements" data-title="L'orangerie - bis">
+                <img src="/images/événements/L'orangerie - bis.jpeg" alt="L'orangerie - bis" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>L'orangerie - bis</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/L'orangerie.jpeg" data-lightbox="Événements" data-title="L'orangerie">
+                <img src="/images/événements/L'orangerie.jpeg" alt="L'orangerie" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>L'orangerie</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/La borne millière.jpeg" data-lightbox="Événements" data-title="La borne millière">
+                <img src="/images/événements/La borne millière.jpeg" alt="La borne millière" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>La borne millière</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/La cour.jpeg" data-lightbox="Événements" data-title="La cour">
+                <img src="/images/événements/La cour.jpeg" alt="La cour" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>La cour</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/La ruelle.jpeg" data-lightbox="Événements" data-title="La ruelle">
+                <img src="/images/événements/La ruelle.jpeg" alt="La ruelle" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>La ruelle</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/La Salle Capitulaire.jpeg" data-lightbox="Événements" data-title="La Salle Capitulaire">
+                <img src="/images/événements/La Salle Capitulaire.jpeg" alt="La Salle Capitulaire" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>La Salle Capitulaire</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Le donjon vu du parc.jpeg" data-lightbox="Événements" data-title="Le donjon vu du parc">
+                <img src="/images/événements/Le donjon vu du parc.jpeg" alt="Le donjon vu du parc" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Le donjon vu du parc</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Le parc.jpeg" data-lightbox="Événements" data-title="Le parc">
+                <img src="/images/événements/Le parc.jpeg" alt="Le parc" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Le parc</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Le pigeonnier - bis.jpeg" data-lightbox="Événements" data-title="Le pigeonnier - bis">
+                <img src="/images/événements/Le pigeonnier - bis.jpeg" alt="Le pigeonnier - bis" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Le pigeonnier - bis</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Le pigeonnier.jpeg" data-lightbox="Événements" data-title="Le pigeonnier">
+                <img src="/images/événements/Le pigeonnier.jpeg" alt="Le pigeonnier" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Le pigeonnier</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Le potager.jpeg" data-lightbox="Événements" data-title="Le potager">
+                <img src="/images/événements/Le potager.jpeg" alt="Le potager" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Le potager</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Mariage allée des platanes.jpeg" data-lightbox="Événements" data-title="Mariage allée des platanes">
+                <img src="/images/événements/Mariage allée des platanes.jpeg" alt="Mariage allée des platanes" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Mariage allée des platanes</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Mariage cour carrée.jpeg" data-lightbox="Événements" data-title="Mariage cour carrée">
+                <img src="/images/événements/Mariage cour carrée.jpeg" alt="Mariage cour carrée" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Mariage cour carrée</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Mariage cour.jpeg" data-lightbox="Événements" data-title="Mariage cour">
+                <img src="/images/événements/Mariage cour.jpeg" alt="Mariage cour" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Mariage cour</p>
+                </div>
+            </div>
+            <div class="slide"><a href="/images/événements/Mariage orangerie - potager.jpeg" data-lightbox="Événements" data-title="Mariage orangerie - potager">
+                <img src="/images/événements/Mariage orangerie - potager.jpeg" alt="Mariage orangerie - potager" width="640" height="480" /></a><div class="caption" style="bottom: 0">
+                    <p>Mariage orangerie - potager</p>
+                </div>
+            </div>
 
-    <div style="display: none;">
-        <a href="/images/événements/L'orangerie - bis.jpeg" data-lightbox="Événements" data-title="L'orangerie - bis">
-            <img src="/images/événements/L'orangerie - bis.jpeg" alt="L'orangerie - bis" /></a>
-        <a href="/images/événements/L'orangerie.jpeg" data-lightbox="Événements" data-title="L'orangerie">
-            <img src="/images/événements/L'orangerie.jpeg" alt="L'orangerie" /></a>
-        <a href="/images/événements/La borne millière.jpeg" data-lightbox="Événements" data-title="La borne millière">
-            <img src="/images/événements/La borne millière.jpeg" alt="La borne millière" /></a>
-        <a href="/images/événements/La cour.jpeg" data-lightbox="Événements" data-title="La cour">
-            <img src="/images/événements/La cour.jpeg" alt="La cour" /></a>
-        <a href="/images/événements/La ruelle.jpeg" data-lightbox="Événements" data-title="La ruelle">
-            <img src="/images/événements/La ruelle.jpeg" alt="La ruelle" /></a>
-        <a href="/images/événements/La Salle Capitulaire.jpeg" data-lightbox="Événements" data-title="La Salle Capitulaire">
-            <img src="/images/événements/La Salle Capitulaire.jpeg" alt="La Salle Capitulaire" /></a>
-        <a href="/images/événements/Le donjon vu du parc.jpeg" data-lightbox="Événements" data-title="Le donjon vu du parc">
-            <img src="/images/événements/Le donjon vu du parc.jpeg" alt="Le donjon vu du parc" /></a>
-        <a href="/images/événements/Le parc.jpeg" data-lightbox="Événements" data-title="Le parc">
-            <img src="/images/événements/Le parc.jpeg" alt="Le parc" /></a>
-        <a href="/images/événements/Le pigeonnier.jpeg" data-lightbox="Événements" data-title="Le pigeonnier">
-            <img src="/images/événements/Le pigeonnier.jpeg" alt="Le pigeonnier" /></a>
-        <a href="/images/événements/Le potager.jpeg" data-lightbox="Événements" data-title="Le potager">
-            <img src="/images/événements/Le potager.jpeg" alt="Le potager" /></a>
-        <a href="/images/événements/Mariage allée des platanes.jpeg" data-lightbox="Événements" data-title="Mariage allée des platanes">
-            <img src="/images/événements/Mariage allée des platanes.jpeg" alt="Mariage allée des platanes" /></a>
-        <a href="/images/événements/Mariage cour carrée.jpeg" data-lightbox="Événements" data-title="Mariage cour carrée">
-            <img src="/images/événements/Mariage cour carrée.jpeg" alt="Mariage cour carrée" /></a>
-        <a href="/images/événements/Mariage cour.jpeg" data-lightbox="Événements" data-title="Mariage cour">
-            <img src="/images/événements/Mariage cour.jpeg" alt="Mariage cour" /></a>
-        <a href="/images/événements/Mariage orangerie - potager.jpeg" data-lightbox="Événements" data-title="Mariage orangerie - potager">
-            <img src="/images/événements/Mariage orangerie - potager.jpeg" alt="Mariage orangerie - potager" /></a>
+            <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+            <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+        </div>
     </div>
 
 </asp:Content>
