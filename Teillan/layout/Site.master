@@ -26,14 +26,19 @@
 
     <%-- Style --%>
 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />
+<%--    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />--%>
+    <link rel="Stylesheet" href="/style/latin.css" />
     <link rel="Stylesheet" href="/style/site.css" />
     <link rel="Stylesheet" href="/style/menu.css" />
 
 </head>
 <body class="container">
+    
+    <div id="SITE_BACKGROUND" style="top: 0px; height: 1186px; left: 0px; width: 1903px;" class="siteBackground">
+        <div id="SITE_BACKGROUND_current_mainPage" style="background-image:url('/images/Fond de page.jpeg');background-attachment:fixed;background-size:cover;background-position:center center;background-repeat:no-repeat;background-color:#575757;width:100%;position:fixed;top:0;height:100%;" class="siteBackgroundcurrent"></div>
+    </div>    
 
-    <form id="form" class="row" runat="server">
+    <form id="form" class="row" style="width:980px;padding-bottom:41px;" runat="server">
 
         <%-- Top Menu --%>
 
@@ -73,7 +78,7 @@
         <div class="row">
 
             <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs sidePanel background">
-                <div class="row">
+                <div class="row font_6">
                     <asp:ContentPlaceHolder ID="sideContent" runat="server" />
                     <div>
                         <p>RÉSERVATIONS</p>
