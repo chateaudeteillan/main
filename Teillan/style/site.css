@@ -25,6 +25,7 @@
     color: white;
 }
 
+
 .font_0 {font:normal normal normal 46px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif ;color:#E8E8E8;}
 .font_1 {font:normal normal normal 14px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#E8E8E8;}
 .font_2 {font:normal normal normal 18px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#E8E8E8;}
@@ -130,7 +131,15 @@
 .s3 ul[dir="rtl"] ul,.s3 ul[dir="rtl"] ol,.s3 ol[dir="rtl"] ul,.s3 ol[dir="rtl"] ol {padding-left:0;padding-right:1.3em;margin-left:0;margin-right:0.5em;}
 .s3 p {margin:0;line-height:normal;letter-spacing:normal;}
 .s3 h1 {margin:0;line-height:normal;letter-spacing:normal;}
-.s3 h2 {margin:0;line-height:normal;letter-spacing:normal;}
+    .s3 h2 {
+        font: normal normal normal 18px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+        color: #E8E8E8;
+        margin: 0;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        font-size: 20px;
+    }
 .s3 h3 {margin:0;line-height:normal;letter-spacing:normal;}
 .s3 h4 {margin:0;line-height:normal;letter-spacing:normal;}
 .s3 h5 {margin:0;line-height:normal;letter-spacing:normal;}
@@ -231,4 +240,3 @@
 .siteBackground {width:100%;position:absolute;}
 .siteBackgroundbgBeforeTransition {position:absolute;top:0;}
 .siteBackgroundbgAfterTransition {position:absolute;top:0;}
-

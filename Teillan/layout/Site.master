@@ -14,121 +14,231 @@
     <script type="text/javascript" src="/scripts/lightbox/js/lightbox.min.js"></script>
     <link rel="stylesheet" href="/scripts/lightbox/css/lightbox.css" />
 
-    <%-- Bootstrap --%>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-    <%-- Slides --%>
+    <%-- SlidesJs --%>
 
     <link rel="stylesheet" href="/style/font-awesome.min.css" />
     <link rel="stylesheet" href="/scripts/slidesjs/slides.css" />
 
     <%-- Style --%>
 
-<%--    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" />--%>
     <link rel="Stylesheet" href="/style/latin.css" />
     <link rel="Stylesheet" href="/style/site.css" />
     <link rel="Stylesheet" href="/style/menu.css" />
 
 </head>
 <body class="container">
-    
-    <div id="SITE_BACKGROUND" style="top: 0px; height: 1186px; left: 0px; width: 1903px;" class="siteBackground">
-        <div id="SITE_BACKGROUND_current_mainPage" style="background-image:url('/images/Fond de page.jpeg');background-attachment:fixed;background-size:cover;background-position:center center;background-repeat:no-repeat;background-color:#575757;width:100%;position:fixed;top:0;height:100%;" class="siteBackgroundcurrent"></div>
-    </div>    
 
-    <form id="form" class="row" style="width:980px;padding-bottom:41px;" runat="server">
+    <form id="form1" runat="server">
 
-        <%-- Top Menu --%>
-
-        <div class="row">
-
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs sidePanel background">
-                <div>
-                    <img src="/images/Logo.png" alt="Teillan" />
-                </div>
-            </div>
-
-            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
-
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                <div class="menu row">
-                    <ul id="menu">
-                        <li><a href="/Accueil.aspx">TEILLAN</a></li>
-                        <li><a href="/Visiter.aspx">VISITER</a></li>
-                        <li><a href="/Fêter.aspx">FÊTER</a></li>
-                        <li>
-                            <a href="/Séjourner.aspx">SÉJOURNER</a>
-                            <ul class="sub-menu">
-                                <li><a href="/PorteItalienne.aspx">Gîte de la Porte Italienne</a></li>
-                                <li><a href="/CadranSolaire.aspx">Gîte du Cadran Solaire</a></li>
-                                <li><a href="/Pigeonnier.aspx">Gîte du Pigeonnier</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/Contact.aspx">CONTACT</a></li>
-                    </ul>
-                </div>
-            </div>
-
+        <div id="SITE_BACKGROUND" style="top: 0px; height: 1186px; left: 0px; width: 1903px;" class="siteBackground">
+            <div id="SITE_BACKGROUND_current_mainPage" style="background-image: url('/images/Fond de page.jpeg'); background-attachment: fixed; background-size: cover; background-position: center center; background-repeat: no-repeat; background-color: #575757; width: 100%; position: fixed; top: 0; height: 100%;" class="siteBackgroundcurrent"></div>
         </div>
 
-        <%-- Content --%>
+        <div class="SITE_ROOT" id="SITE_ROOT" style="width: 980px; padding-bottom: 41px;">
+            <div id="SITE_STRUCTURE" style="position: static; top: 0px; width: 980px; height: 1186px;">
 
-        <div class="row">
+                <%-- Site Header --%>
 
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs sidePanel background">
-                <div class="row font_6">
-                    <asp:ContentPlaceHolder ID="sideContent" runat="server" />
-                    <div>
-                        <p>RÉSERVATIONS</p>
-                        <p>
-                            Telephone&nbsp;:&nbsp;06 80 10 08 07<br />
-                            Email:&nbsp;chateaudeteillan@gmail.com
-                        </p>
+                <div style="position: absolute; top: 0px; height: 309px; width: 980px; left: 0px;" class="s4" id="SITE_HEADER">
+                    <div id="SITE_HEADERscreenWidthBackground" class="s4screenWidthBackground" style="width: 1579px; left: -300px;"></div>
+                    <div id="SITE_HEADERcenteredContent" class="s4centeredContent">
+                        <div id="SITE_HEADERbg" class="s4bg"></div>
+                        <div id="SITE_HEADERinlineContent" class="s4inlineContent">
+                            <div style="position: absolute; top: -11px; height: 292px; width: 290px; left: -1px;" class="s1" id="Cntnr1">
+                                <div id="Cntnr1bg" class="s1bg"></div>
+                                <div id="Cntnr1inlineContent" class="s1inlineContent">
+                                    <div style="position: absolute; top: 40px; height: 213px; width: 284px; left: 3px;" data-exact-height="NaN" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="logo-chateaudeteillan" class="s5" id="WPht3-19pa">
+                                        <div style="width: 284px; height: 213px;" id="WPht3-19palink" class="s5link">
+                                            <div id="WPht3-19paimg" style="width: 284px; height: 213px; position: relative;" class="s5img">
+                                                <img alt="Château de Teillan" style="width: 284px; height: 213px; object-fit: contain;" src="/images/Logo.png" id="WPht3-19paimgimage" class="s5imgimage">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="position: absolute; top: 270px; height: 5px; width: 230px; left: 35px;" class="s2" id="FvGrdLn1">
+                                        <div id="FvGrdLn1line" class="s2line"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="position: absolute; top: 30px; height: 5px; width: 600px; left: 338px;" class="s2" id="FvGrdLn0">
+                                <div id="FvGrdLn0line" class="s2line"></div>
+                            </div>
+
+                            <div style="position: absolute; top: 85px; height: 60px; width: 645px; left: 318px;">
+                                <div style="height: 60px; display: inline-block; text-align: left; overflow: visible;">
+                                    <ul id="menu">
+                                        <li><a href="/Accueil.aspx" style="display: inherit; position: relative; box-sizing: border-box; width: 124px; height: 60px; overflow: visible;" class="s6repeaterButton">TEILLAN</a></li>
+                                        <li><a href="/Visiter.aspx" style="display: inherit; position: relative; box-sizing: border-box; width: 118px; height: 60px; overflow: visible;" class="s6repeaterButton">VISITER</a></li>
+                                        <li><a href="/Fêter.aspx" style="display: inherit; position: relative; box-sizing: border-box; width: 107px; height: 60px; overflow: visible;" class="s6repeaterButton">FÊTER</a></li>
+                                        <li>
+                                            <a href="/Séjourner.aspx" style="display: inherit; position: relative; box-sizing: border-box; width: 159px; height: 60px; overflow: visible;" class="s6repeaterButton">SÉJOURNER</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="/PorteItalienne.aspx">Gîte de la Porte Italienne</a></li>
+                                                <li><a href="/CadranSolaire.aspx">Gîte du Cadran Solaire</a></li>
+                                                <li><a href="/Pigeonnier.aspx">Gîte du Pigeonnier</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="/Contact.aspx" style="display: inherit; position: relative; box-sizing: border-box; width: 137px; height: 60px; overflow: visible;">CONTACT</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+<%--                            <div id="DrpDwnMn1" style="position: absolute; top: 151px; height: 60px; width: 645px; left: 318px;" class="s6" data-dropmode="dropDown">
+                                <div style="height: 60px; display: inline-block; text-align: left; overflow: visible;" id="DrpDwnMn1itemsContainer" class="s6itemsContainer">
+
+                                    <a style="display: inherit; position: relative; box-sizing: border-box; width: 124px; height: 60px; overflow: visible;" data-listposition="left" href="/Accueil.aspx" target="_self" class="s6repeaterButton" id="DrpDwnMn10" data-originalgapbetweentextandbtn="10">
+                                        <div class="s6repeaterButton_gapper">
+                                            <div style="text-align: left;" id="DrpDwnMn10bg" class="s6repeaterButtonbg">
+                                                <p style="line-height: 60px; text-align: left;" id="DrpDwnMn10label" class="s6repeaterButtonlabel">TEILLAN</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a style="display: inherit; position: relative; box-sizing: border-box; width: 118px; height: 60px; overflow: visible;" data-listposition="center" href="/Visiter.aspx" target="_self" class="s6repeaterButton" id="DrpDwnMn11" data-originalgapbetweentextandbtn="10">
+                                        <div class="s6repeaterButton_gapper">
+                                            <div style="text-align: left;" id="DrpDwnMn11bg" class="s6repeaterButtonbg">
+                                                <p style="line-height: 60px; text-align: left;" id="DrpDwnMn11label" class="s6repeaterButtonlabel">VISITER</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a style="display: inherit; position: relative; box-sizing: border-box; width: 107px; height: 60px; overflow: visible;" data-listposition="center" href="/Fêter.aspx" target="_self" class="s6repeaterButton" id="DrpDwnMn12" data-originalgapbetweentextandbtn="10">
+                                        <div class="s6repeaterButton_gapper">
+                                            <div style="text-align: left;" id="DrpDwnMn12bg" class="s6repeaterButtonbg">
+                                                <p style="line-height: 60px; text-align: left;" id="DrpDwnMn12label" class="s6repeaterButtonlabel">FÊTER</p>
+                                            </div>
+                                        </div>
+                                    </a><a style="display: inherit; position: relative; box-sizing: border-box; width: 159px; height: 60px; overflow: visible;" data-listposition="center" href="/Séjourner.aspx" target="_self" class="s6repeaterButton" id="DrpDwnMn13" data-originalgapbetweentextandbtn="10">
+                                        <div class="s6repeaterButton_gapper">
+                                            <div style="text-align: left;" id="DrpDwnMn13bg" class="s6repeaterButtonbg">
+                                                <p style="line-height: 60px; text-align: left;" id="DrpDwnMn13label" class="s6repeaterButtonlabel">SÉJOURNER</p>
+                                            </div>
+                                        </div>
+                                    </a><a style="display: inherit; position: relative; box-sizing: border-box; width: 137px; height: 60px; overflow: visible;" data-listposition="right" href="/Contact.aspx" target="_self" class="s6repeaterButton" id="DrpDwnMn14" data-originalgapbetweentextandbtn="10">
+                                        <div class="s6repeaterButton_gapper">
+                                            <div style="text-align: left;" id="DrpDwnMn14bg" class="s6repeaterButtonbg">
+                                                <p style="line-height: 60px; text-align: left;" id="DrpDwnMn14label" class="s6repeaterButtonlabel">CONTACT</p>
+                                            </div>
+                                        </div>
+                                    </a><a style="display: inline-block; position: absolute; box-sizing: border-box; height: 0px; overflow: hidden;" data-listposition="right" class="s6repeaterButton" id="DrpDwnMn1__more__" data-originalgapbetweentextandbtn="10">
+                                        <div class="s6repeaterButton_gapper">
+                                            <div style="text-align: left;" id="DrpDwnMn1__more__bg" class="s6repeaterButtonbg">
+                                                <p style="line-height: 60px; text-align: left;" id="DrpDwnMn1__more__label" class="s6repeaterButtonlabel">More</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>--%>
+                                <%--                                <div id="DrpDwnMn1moreButton" class="s6moreButton"></div>
+                                <div style="visibility: hidden; left: 349px; right: auto; bottom: auto;" data-drophposition="" data-dropalign="left" id="DrpDwnMn1dropWrapper" class="s6dropWrapper">
+                                    <div style="visibility: hidden; left: 349px; right: auto;" id="DrpDwnMn1moreContainer" class="s6moreContainer"></div>
+                                </div>--%>
+                            </div>
+                            <div style="position: absolute; top: 259px; height: 5px; width: 600px; left: 338px;" class="s2" id="FvGrdLn5-1bo8">
+                                <div id="FvGrdLn5-1bo8line" class="s2line"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>
-                            <a href="https://www.facebook.com/pages/Ch%C3%A2teau-de-Teillan/224143710954533">
-                                <img src="/images/social/facebook.png" alt="Facebook®" /></a>
-                            <a href="https://plus.google.com/117458849805390198416/posts">
-                                <img src="/images/social/google.png" alt="Google®+" /></a>
-                        </p>
+                </div>
+
+                <%-- Main Content --%>
+
+                <div style="position: absolute; top: 309px; height: 723px; width: 980px; left: 0px;" class="s7" id="PAGES_CONTAINER">
+                    <div id="PAGES_CONTAINERscreenWidthBackground" class="s7screenWidthBackground" style="width: 1579px; left: -300px;"></div>
+                    <div id="PAGES_CONTAINERcenteredContent" class="s7centeredContent">
+                        <div id="PAGES_CONTAINERbg" class="s7bg"></div>
+                        <div id="PAGES_CONTAINERinlineContent" class="s7inlineContent">
+                            <div style="position: absolute; top: 0px; height: 712px; width: 980px; left: 0px;" class="s8" id="SITE_PAGES">
+                                <div style="position: absolute; top: 0px; height: 712px; width: 980px; left: 0px;" class="s11" id="mainPage">
+                                    <div id="mainPagebg" class="s11bg"></div>
+                                    <div id="mainPageinlineContent" class="s11inlineContent">
+                                        <div style="position: absolute; top: 0px; height: 712px; width: 290px; left: 0px;" class="s1" id="Cntnr2">
+                                            <div id="Cntnr2bg" class="s1bg"></div>
+                                            <div id="Cntnr2inlineContent" class="s1inlineContent">
+                                                <div style="position: absolute; top: 23px; width: 230px; left: 30px;" class="s3" id="WRchTxt5">
+                                                    <asp:ContentPlaceHolder ID="sideContent" runat="server" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="position: absolute; top: 0px; height: 710px; width: 618px; left: 331px;" class="s1" id="Cntnr5-7p0">
+                                            <div id="Cntnr5-7p0bg" class="s1bg"></div>
+                                            <div id="Cntnr5-7p0inlineContent" class="s1inlineContent">
+                                                <asp:ContentPlaceHolder ID="mainContent" runat="server" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
+                <div style="position: absolute; top: 773px; height: 221px; width: 230px; left: 29px;" class="s9" id="Cntnr4">
+                    <div id="Cntnr4bg" class="s9bg"></div>
+                    <div id="Cntnr4inlineContent" class="s9inlineContent">
+                        <div style="position: absolute; top: 30px; width: 207px; left: 13px;" class="s3" id="WRchTxt4">
+                            <h6 class="font_6" style="line-height: 1.4em; text-align: center;"><span style="line-height: 1.4em;">RÉSERVATIONS</span></h6>
 
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 background">
-                <div class="row">
-                    <asp:ContentPlaceHolder ID="mainContent" runat="server" />
+                            <p class="font_8" style="text-align: center;">&nbsp;</p>
+
+                            <p class="font_8" style="line-height: 1.4em; text-align: center;">
+                                Téléphone&nbsp;:&nbsp;06 80 10 08 07<br />
+                                Email&nbsp;:&nbsp;chateaudeteillan@gmail.com
+                            </p>
+                        </div>
+                        <div style="position: absolute; top: 129px; height: 5px; width: 190px; left: 20px;" class="s2" id="FvGrdLn2">
+                            <div id="FvGrdLn2line" class="s2line"></div>
+                        </div>
+                        <div style="width: 65px; height: 30px; position: absolute; top: 157px; left: 81px;" class="s10" id="LnkBr0-140o">
+                            <div id="LnkBr0-140oitemsContainer" class="s10itemsContainer">
+                                <div style="width: 30px; height: 30px; margin-bottom: 0; margin-right: 5px; display: inline-block;" class="s10imageItem" id="LnkBr0-140oi0z91">
+                                    <a href="https://www.facebook.com/pages/Ch%C3%A2teau-de-Teillan/224143710954533" target="_blank" id="LnkBr0-140oi0z91link" class="s10imageItemlink">
+                                        <div id="LnkBr0-140oi0z91image" style="width: 30px; height: 30px; position: absolute;" class="s10imageItemimage">
+                                            <img alt="" style="width: 30px; height: 30px; object-fit: cover;" src="/images/social/facebook.png" id="LnkBr0-140oi0z91imageimage" class="s10imageItemimageimage">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="width: 30px; height: 30px; margin-bottom: 0; margin-right: 5px; display: inline-block;" class="s10imageItem" id="LnkBr0-140oi21vz6">
+                                    <a href="https://plus.google.com/117458849805390198416/posts" target="_blank" id="LnkBr0-140oi21vz6link" class="s10imageItemlink">
+                                        <div id="LnkBr0-140oi21vz6image" style="width: 30px; height: 30px; position: absolute;" class="s10imageItemimage">
+                                            <img alt="" style="width: 30px; height: 30px; object-fit: cover;" src="/images/social/google.png" id="LnkBr0-140oi21vz6imageimage" class="s10imageItemimageimage">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
+                <%-- Footer --%>
+
+                <div style="position: absolute; top: 1032px; height: 154px; width: 980px; left: 0px; bottom: auto;" class="s0" id="SITE_FOOTER">
+                    <div id="SITE_FOOTERscreenWidthBackground" class="s0screenWidthBackground" style="width: 1579px; left: -300px;"></div>
+                    <div id="SITE_FOOTERcenteredContent" class="s0centeredContent">
+                        <div id="SITE_FOOTERbg" class="s0bg"></div>
+                        <div id="SITE_FOOTERinlineContent" class="s0inlineContent">
+                            <div style="position: absolute; top: 0px; height: 154px; width: 290px; left: 0px;" class="s1" id="Cntnr3">
+                                <div id="Cntnr3bg" class="s1bg"></div>
+                                <div id="Cntnr3inlineContent" class="s1inlineContent">
+                                    <div style="position: absolute; top: 0px; height: 5px; width: 230px; left: 35px;" class="s2" id="FvGrdLn3">
+                                        <div id="FvGrdLn3line" class="s2line"></div>
+                                    </div>
+                                    <div style="position: absolute; top: 27px; width: 170px; left: 60px;" class="s3" id="WRchTxtb">
+                                        <p class="alignLeft      font_8" style="line-height: 1.4em; text-align: center;">
+                                            Le Grand Teillan<br />
+                                            30470 Aimargues<br />
+                                            Tél&nbsp;:&nbsp;06 80 10 08 07<br />
+                                            chateaudeteillan@gmail.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
 
-        <%-- Footer --%>
-
-        <div class="row">
-
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs sidePanel background">
-                <div>
-                    <p>
-                        Le Grand Teillan<br />
-                        30470 Aimargues<br />
-                        Tél&nbsp;:&nbsp;06 80 10 08 07<br />
-                        chateaudeteillan@gmail.com
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"></div>
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"></div>
-
-        </div>
-
-        <%-- Extra scripts --%>
+        <!-- Extra scripts -->
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="scripts/slidesjs/jquery.slides.min.js"></script>
@@ -140,7 +250,7 @@
                     height: 400,
                     navigation: false,
                     callback: {
-                        loaded: function(number) {
+                        loaded: function (number) {
                             // Use your browser console to view log
                             console.log("SlidesJS: Loaded with slide #" + number);
 
@@ -151,7 +261,7 @@
                                 bottom: -130
                             }, 200);
                         },
-                        start: function(number) {
+                        start: function (number) {
                             // Use your browser console to view log
                             console.log("SlidesJS: Start Animation on slide #" + number);
 
@@ -159,7 +269,7 @@
                                 bottom: -160
                             }, 100);
                         },
-                        complete: function(number) {
+                        complete: function (number) {
                             // Use your browser console to view log
                             console.log("SlidesJS: Animation Complete. Current slide is #" + number);
 
@@ -168,12 +278,12 @@
 
                             $(".caption").animate({
                                 bottom: -130
-                            }, 200);                        
+                            }, 200);
                         }
                     }
                 });
             });
-      </script>
+        </script>
 
     </form>
 

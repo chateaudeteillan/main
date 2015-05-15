@@ -3,15 +3,18 @@
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="Server" />
 <asp:Content ID="Side" ContentPlaceHolderID="sideContent" runat="Server">
     <div>
-        <p>
-            Un lieu historique en petite Camargue : à 15 minutes des plages, le long du Vidourle,
+        <h2 class="font_2" style="text-align: center; font-size: 20px">
+        Un lieu historique en petite Camargue : à 15 minutes des plages, le long du Vidourle,
         dans un cadre privilégié,
         à 12 km d’Aigues-Mortes,
         à mi-distance entre Nîmes et Montpellier,
         entre Mer Méditerranée et Cévennes...
-        </p>
+        </h2>
+        
+        <p class="font_8">&nbsp;</p>
+        <p class="font_8">&nbsp;</p>
 
-        <p>
+        <p class="font_7" style="text-align: center; font-size: 20px">
             Que vous soyez 2, 4 ou 6/7 personnes, vous trouverez certainement l'appartement de vos vacances dans les dépendances du château.
         </p>
     </div>

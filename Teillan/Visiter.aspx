@@ -2,8 +2,8 @@
 <asp:Content ID="Head" ContentPlaceHolderID="head" Runat="Server"/>
 <asp:Content ID="Side" ContentPlaceHolderID="sideContent" Runat="Server">
     <div>
-        <p>Venez découvrir Teillan un site historique de charme, situé aux carrefours des siècles, des religions et des routes du sel.</p>
-        <p>Le Château de Teillan, riche des reflets de la quintessence de son histoire : des Romains au Moyen Age, de la Renaissance, à nos jours.</p>
+        <h2 class="font_2" style="text-align: center; font-size: 20px">Venez découvrir Teillan un site historique de charme, situé aux carrefours des siècles, des religions et des routes du sel.</h2>
+        <h2 class="font_2" style="text-align: center; font-size: 20px">Le Château de Teillan, riche des reflets de la quintessence de son histoire : des Romains au Moyen Age, de la Renaissance, à nos jours.</h2>
     </div>
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="mainContent" Runat="Server">

@@ -12,7 +12,7 @@
         <h2>Vos photos de mariage au Château de Teillan :</h2>
 
         <p>
-            Venez vous faire photographier dans ce cadre pittoresque et exceptionnel !
+         Venez vous faire photographier dans ce cadre pittoresque et exceptionnel !
         Le Château, sa Cour, avec son Donjon et son Colombier.
         Son parc "Paysager-Romantique" arboré avec sa Noria, son Orangerie et ses Collections Romaines
         vous offriront un choix étonnant de décors, pour fixer des événements inoubliables.
@@ -21,7 +21,7 @@
         <h2>Votre événement au Château de Teillan :</h2>
 
         <p>
-            Nous mettons à votre disposition : La salle Capitulaire, la Cour, les Jardins et le Parc pour organiser vos événements :
+        Nous mettons à votre disposition : La salle Capitulaire, la Cour, les Jardins et le Parc pour organiser vos événements :
         Mariages, Séminaires, Anniversaires, Baptêmes, Départs en retraite...
         </p>
 
