@@ -24,10 +24,10 @@
 */
 
 .slides_container {
-	width:570px;
-	overflow:hidden;
-	position:relative;
-	display:none;
+    width: 570px;
+    overflow: hidden;
+    position: relative;
+    display: none;
 }
 
 /*
@@ -39,9 +39,9 @@
 */
 
 div.slide {
-	width:570px;
-	height:270px;
-	display:block;
+    width: 570px;
+    height: 270px;
+    display: block;
 }
 
 /* Previous / Next */
@@ -63,6 +63,7 @@ div.slide {
         margin-right: 5px;
         float: left;
     }
+
 
 .slidesjs-pagination {
     margin: 6px 0 0;
@@ -94,6 +95,16 @@ div.slide {
             .slidesjs-pagination li a:hover {
                 background-position: 0 -26px;
             }
+
+.icon-chevron-left {
+    color: white;
+    text-decoration: none;   
+}
+
+.icon-chevron-right {
+    color: white;
+    text-decoration: none;   
+}
 
 #slides a:link,
 #slides a:visited {

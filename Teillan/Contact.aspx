@@ -43,23 +43,73 @@
     </script>
 </asp:Content>
 <asp:Content ID="Side" ContentPlaceHolderID="sideContent" runat="Server">
-    <div>
-        <a href="/images/contact/Le donjon.jpeg" data-lightbox="Le donjon" data-title="Le donjon">
-            <img src="/images/contact/Le donjon.jpeg" alt="Le donjon" />
-        </a>
+
+    <div style="position: absolute; top: 0px; height: 769px; width: 290px; left: 0px;" class="s1" id="Cntnr2">
+        <div id="Cntnr2bg" class="s1bg"></div>
+        <div id="Cntnr2inlineContent" class="s1inlineContent">
+
+            <div style="position: absolute; top: 55px; height: 344px; width: 230px; left: 35px;">
+                <a href="/images/contact/Le donjon.jpeg" data-lightbox="Le donjon" data-title="Le donjon">
+                    <img src="/images/contact/Le donjon.jpeg" alt="Le donjon" width="230px" height="344px" />
+                </a>
+            </div>
+        </div>
     </div>
+
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="mainContent" runat="Server">
-    
-    <div id="map" style="height: 480px; width: 800px"></div>
-    
-    <div class="contact">
-        <asp:TextBox ID="txtName" label="Nom" runat="server" Width="800px">Votre nom</asp:TextBox><br />
-        <asp:TextBox ID="txtEmail" label="Email" runat="server" Width="800px">Votre adresse de messagerie</asp:TextBox><br />
-        <asp:TextBox ID="txtSubject" label="Email" runat="server" Width="800px">Sujet</asp:TextBox><br />
-        <asp:TextBox ID="txtMessage" label="Message" runat="server" Height="350px" Width="800px"></asp:TextBox><br />
-        <br/>
-        <asp:Button id="btnSubmit" text="Envoyer" OnClick="btnSubmit_OnClick" runat="server" Height="39px" Width="180px" />
+
+    <div style="position: absolute; top: 0px; height: 769px; width: 600px; left: 340px;" class="s1" id="Cntnrf">
+        <div id="Cntnrfbg" class="s1bg"></div>
+        <div id="CntnrfinlineContent" class="s1inlineContent">
+
+            <div style="position: absolute; top: 24px; height: 345px; width: 538px; left: 29px;" class="s16" id="map"></div>
+
+            <div style="position: absolute; top: 416px; height: 5px; width: 540px; left: 30px;" class="s2" id="FvGrdLna">
+                <div id="FvGrdLnaline" class="s2line"></div>
+            </div>
+
+            <div style="height: 268px; position: absolute; top: 464px; width: 540px; left: 29px;" class="s17" id="CntctFrm2">
+                <div class="contact">
+                    <asp:TextBox ID="txtName" label="Nom" runat="server" CssClass="s17_required s17nameField" Width="538px">Votre nom</asp:TextBox><br />
+                    <asp:TextBox ID="txtEmail" label="Email" runat="server" CssClass="s17_required s17emailField" Width="538px">Votre adresse de messagerie</asp:TextBox><br />
+                    <asp:TextBox ID="txtSubject" label="Subject" runat="server" CssClass="s17subjectField" Width="538px">Sujet</asp:TextBox><br />
+                    <asp:TextBox ID="txtMessage" label="Message" runat="server" CssClass="s17messageField" Width="538px" Height="175px"></asp:TextBox><br />
+                    <br />
+                    <asp:Button ID="btnSubmit" Text="Envoyer" OnClick="btnSubmit_OnClick" runat="server" CssClass="s17submit" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</asp:Content>
+
+<asp:Content ID="Footer" ContentPlaceHolderID="footerContent" runat="server">
+
+    <div style="position: absolute; top: 1089px; height: 154px; width: 980px; left: 340px; bottom: auto;" class="s0" id="SITE_FOOTER">
+        <div id="SITE_FOOTERscreenWidthBackground" class="s0screenWidthBackground" style="width: 1579px; left: -300px;"></div>
+        <div id="SITE_FOOTERcenteredContent" class="s0centeredContent">
+            <div id="SITE_FOOTERbg" class="s0bg"></div>
+            <div id="SITE_FOOTERinlineContent" class="s0inlineContent">
+                <div style="position: absolute; top: 0px; height: 154px; width: 290px; left: 0px;" class="s1" id="Cntnr3">
+                    <div id="Cntnr3bg" class="s1bg"></div>
+                    <div id="Cntnr3inlineContent" class="s1inlineContent">
+                        <div style="position: absolute; top: 0px; height: 5px; width: 230px; left: 35px;" class="s2" id="FvGrdLn3">
+                            <div id="FvGrdLn3line" class="s2line"></div>
+                        </div>
+                        <div style="position: absolute; top: 27px; width: 170px; left: 60px;" class="s3" id="WRchTxtb">
+                            <p class="alignLeft      font_8" style="line-height: 1.4em; text-align: center;">
+                                Le Grand Teillan<br />
+                                30470 Aimargues<br />
+                                Tél&nbsp;:&nbsp;06 80 10 08 07<br />
+                                chateaudeteillan@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </asp:Content>
