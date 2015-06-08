@@ -40,6 +40,13 @@ namespace Teillan
                     port = __port;
             }
 
+            SendMail(smtpMailFrom, smtpMailTo, smtpHost, port, smtpUser, smtpPassword);
+        }
+
+        #region Implementation
+
+        private void SendMail(string smtpMailFrom, string smtpMailTo, string smtpHost, int port, string smtpUser, string smtpPassword)
+        {
             try
             {
                 var mail = new MailMessage(smtpMailFrom, smtpMailTo);
@@ -59,7 +66,6 @@ namespace Teillan
 
                 lblConfirmation.Text = "Votre message a été envoyé avec succès.";
                 lblConfirmation.Visible = true;
-
             }
             catch (Exception)
             {
@@ -70,8 +76,28 @@ namespace Teillan
 
         private string CreateMailBody()
         {
-            return "this is a test email";
+            const string body = @"
+
+Vous avez reçu une nouvelle demande d'information depuis le site www.chateaudeteillan.com.
+Voici les détails de la demande:
+
+Contact: {0}.
+Adresse de messagerie: {1}.
+Message:
+
+{2}
+
+";
+
+            return String.Format(
+                body,
+                txtName.Text,
+                txtEmail.Text,
+                txtMessage.Text
+                );
         }
+
+        #endregion
 
         protected global::System.Web.UI.HtmlControls.HtmlForm formContact;
         protected global::System.Web.UI.WebControls.TextBox txtName;
