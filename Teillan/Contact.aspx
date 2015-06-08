@@ -71,10 +71,10 @@
 
             <div style="height: 268px; position: absolute; top: 464px; width: 540px; left: 29px;" class="s17" id="CntctFrm2">
                 <div class="contact">
-                    <asp:TextBox ID="txtName" label="Nom" runat="server" CssClass="s17_required s17nameField" Width="538px"/><br />
-                    <asp:TextBox ID="txtEmail" label="Email" runat="server" CssClass="s17_required s17emailField" Width="538px"/><br />
-                    <asp:TextBox ID="txtSubject" label="Subject" runat="server" CssClass="s17subjectField" Width="538px"/><br />
-                    <asp:TextBox ID="txtMessage" label="Message" runat="server" CssClass="s17messageField" Width="538px" Height="175px"></asp:TextBox><br />
+                    <asp:TextBox ID="txtName" type="text" label="Nom" runat="server" CssClass="s17_required s17nameField" Width="538px"/><br />
+                    <asp:TextBox ID="txtEmail" type="text" label="Email" runat="server" CssClass="s17_required s17emailField" Width="538px"/><br />
+                    <asp:TextBox ID="txtSubject" type="text" label="Subject" runat="server" CssClass="s17subjectField" Width="538px"/><br />
+                    <asp:TextBox ID="txtMessage" type="textarea" label="Message" runat="server" CssClass="s17messageField" Width="538px" Height="175px"></asp:TextBox><br />
                     <br />
                     <asp:Button ID="btnSubmit" Text="Envoyer" OnClick="btnSubmit_OnClick" runat="server" CssClass="s17submit" />
                     <asp:Label ID="lblConfirmation" Text="Votre message a été envoyé avec succès" runat="server" CssClass="s17submit" />
