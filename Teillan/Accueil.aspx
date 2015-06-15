@@ -25,6 +25,8 @@
 
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="mainContent" runat="Server">
+    
+    <h1 style="visibility: hidden;">Tourisme|Camargues|Locations|Aimargues|Marsillargues|Aigues-Mortes|Gard</h1>
 
     <div style="position: absolute; top: 0px; height: 712px; width: 618px; left: 331px;" class="s1" id="Cntnr5-7p0">
         <div id="Cntnr5-7p0bg" class="s1bg"></div>
@@ -33,7 +35,7 @@
                 <p class="font_2">
                     Un site d'exception,<br />
                     Un Château classé monument historique,<br />
-                    En petite Camargue,<br />
+                    En petite Camargues,<br />
                     Entre Nîmes et Montpellier,<br />
                     Entre Cévennes et Méditerranée.
                 </p>
