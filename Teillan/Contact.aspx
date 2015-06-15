@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Teillan.Contact" Title="Château de Teillan - Contact" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Teillan.Contact" Title="Château de Teillan - Aimargues | Marsillargues" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="Server">
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>

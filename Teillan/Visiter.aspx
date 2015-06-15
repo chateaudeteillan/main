@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeBehind="Visiter.aspx.cs" Inherits="Teillan.Visit" Title="Château de Teillan - Visiter" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeBehind="Visiter.aspx.cs" Inherits="Teillan.Visit" Title="Château de Teillan - Tourisme et Location dans le Gard" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="Server" />
 <asp:Content ID="Side" ContentPlaceHolderID="sideContent" runat="Server">

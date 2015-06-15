@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeBehind="Séjourner.aspx.cs" Inherits="Teillan.Stay" Title="Château de Teillan - Visiter" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/layout/Site.master" AutoEventWireup="true" CodeBehind="Séjourner.aspx.cs" Inherits="Teillan.Stay" Title="Château de Teillan - Location saisonnières | Location de vacances - Aigues-Mortes, Grau-du-Roi" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="Server" />
 <asp:Content ID="Side" ContentPlaceHolderID="sideContent" runat="Server">
